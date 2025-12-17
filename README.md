@@ -1,5 +1,5 @@
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://energy-market-dashboard.streamlit.io/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://energy-market-dashboard.streamlit.app/)
 
 # Energy Market Quantitative Analysis Pipeline
 
