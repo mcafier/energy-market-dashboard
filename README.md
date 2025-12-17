@@ -1,3 +1,6 @@
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://energy-market-dashboard.streamlit.io/)
+
 # Energy Market Quantitative Analysis Pipeline
 
 This repository contains an end-to-end quantitative trading framework designed to analyze and predict US Natural Gas Futures (`NG=F`). The pipeline integrates market data with fundamental weather data to identify trading opportunities using Machine Learning.
@@ -6,7 +9,7 @@ The project includes a research notebook for data exploration, a modular Python 
 
 ## Live Demo
 
-You can test the full functionality immediately in your browser. No API key or installation required. 👉 Click here to open the Live App
+You can test the full functionality immediately in your browser. No API key or installation required. 👉 [Click here to open the Live App](https://energy-market-dashboard.streamlit.app/)
 
 ## Project Overview
 
