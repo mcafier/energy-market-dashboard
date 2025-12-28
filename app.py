@@ -115,7 +115,7 @@ st.subheader("📈 Strategy Performance (Backtest)")
 
 # Calculate Cumulative Returns
 results['cum_strategy'] = (1 + results['strategy_returns']).cumprod()
-results['cum_market'] = (1 + results['returns']).cumprod()
+results['cum_market'] = (1 + results['simple_returns']).cumprod()
 
 # Plotly Chart
 fig = go.Figure()

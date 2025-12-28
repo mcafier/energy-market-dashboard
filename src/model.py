@@ -86,7 +86,10 @@ def run_walk_forward_backtest(df: pd.DataFrame, train_window_days: int = 365, st
     # Logic: 
     # If Signal at day T is 1 (Buy), we hold position for day T+1.
     # So Strategy Return at T+1 = Signal(T) * Return(T+1)
-    results['strategy_returns'] = results['signal'].shift(1) * results['returns']
+    results['simple_returns'] = np.exp(results['returns']) - 1
+
+    results['strategy_returns'] = results['signal'].shift(1) * results['simple_returns']
+    
     
     # Clean up (remove the initial training period where we have no signals)
     results.dropna(subset=['signal'], inplace=True)
