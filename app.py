@@ -34,8 +34,8 @@ ticker = st.sidebar.selectbox(
 
 st.sidebar.markdown("---")
 st.sidebar.subheader("Backtest Parameters")
-train_window = st.sidebar.slider("Training Window (Days)", 100, 730, 365, help="Initial data required before making the first prediction.")
-step_size = st.sidebar.slider("Retraining Frequency (Days)", 7, 90, 21, help="How often the model is retrained to adapt to new market regimes.")
+train_window = st.sidebar.slider("Training Window (Trading Days)", 100, 730, 365, help="Initial data required before making the first prediction.")
+step_size = st.sidebar.slider("Retraining Frequency (Trading Days)", 7, 90, 21, help="How often the model is retrained to adapt to new market regimes.")
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### Methodology")
