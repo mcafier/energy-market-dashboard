@@ -84,7 +84,7 @@ We transform non-stationary price data into stationary features suitable for Mac
 ### 2. Backtesting Strategy
 To ensure the reliability of the performance metrics, we do not use a standard Train/Test split. Instead, we use **Walk-Forward Validation**:
 * **Initial Training**: 1 year of historical data.
-* **Step Size**: The model predicts the next 30 days, then is retrained with the new data included.
+* **Step Size**: The model predicts the next 21 days, then is retrained with the new data included.
 * This approach mimics the actual workflow of a systematic trader updating their model periodically.
 
 ## Disclaimer
